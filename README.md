@@ -12,4 +12,5 @@
 2、测试过程：
 (1)手机通过usb连接电脑
 (2)开启终端，输入命令，强制启动app并加载js文件：
+
 frida -U -f cn.hahaha.TestFrida --no-pause -l /Users/xxxxx/fridaTest/frida_trace_ios.js 
